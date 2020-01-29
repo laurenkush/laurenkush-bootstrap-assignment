@@ -1,0 +1,45 @@
+.jumbotron {
+    background-color: #A6FFA0;
+}
+
+.nav-link {
+    color: #FFD4FC;
+    background-color: #E8CCB5;
+}
+/* this needs to be more specific  */
+ul.nav-pills > li.nav-item > a.nav-link {
+    margin: 2em;
+}
+
+ul.nav-pills li.nav-item {
+    color:  #A6FFA0;
+}
+
+.nav-pills .nav-link.active {
+        color: #E8CCB5;
+        background-color: #FFD4FC;
+}
+
+.nav-pills .nav-link.disabled {
+    color: #A6FFA0;
+}
+
+ul.nav-pills > li.nav-item > a:hover {
+    color: #A6FFA0;
+ 
+}
+
+.col-md-8 {
+    background-image: url(/Users/lauren/Desktop/class-projects/Bootstrap4-Assignment/images/chien-fou.jpg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+}
+
+.col-6 .col-md-4 {
+    background-image: url(/Users/lauren/Desktop/class-projects/Bootstrap4-Assignment/images/heart-chiweenie.jpg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+}
+
